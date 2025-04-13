@@ -1,0 +1,7 @@
+services:
+  db:
+    image: aufarr/if2240-2024-movies
+    container_name: db
+    ports:
+      - 3306:3306
+    # mysql -h 127.0.0.1 -u labdas movies -p
